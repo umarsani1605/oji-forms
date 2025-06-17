@@ -11,12 +11,13 @@ NC='\033[0m'
 # ASCII Art
 echo -e "${BLUE}"
 cat << "EOF"
-  ____              ______                    
- / __ \____  ____  / ____/___  _________ ___ 
-/ / / / __ \/ __ \/ /_  / __ \/ ___/ __ `__ \
-/ /_/ / /_/ / / / / __/ / /_/ / /  / / / / / /
-\____/ .___/_/ /_/_/    \____/_/  /_/ /_/ /_/ 
-    /_/                                       
+
+ ░░░░░░       ░░ ░░     ░░░░░░░  ░░░░░░  ░░░░░░  ░░░    ░░░ 
+▒▒    ▒▒      ▒▒ ▒▒     ▒▒      ▒▒    ▒▒ ▒▒   ▒▒ ▒▒▒▒  ▒▒▒▒ 
+▒▒    ▒▒      ▒▒ ▒▒     ▒▒▒▒▒   ▒▒    ▒▒ ▒▒▒▒▒▒  ▒▒ ▒▒▒▒ ▒▒ 
+▓▓    ▓▓ ▓▓   ▓▓ ▓▓     ▓▓      ▓▓    ▓▓ ▓▓   ▓▓ ▓▓  ▓▓  ▓▓ 
+ ██████   █████  ██     ██       ██████  ██   ██ ██      ██ 
+
 EOF
 echo -e "${NC}"
 
@@ -36,7 +37,7 @@ done
 
 cd "$PROJECT_ROOT"
 
-echo -e "${BLUE}Starting OpnForm Docker setup...${NC}"
+echo -e "${BLUE}Starting Oji Forms Docker setup...${NC}"
 
 # Run the environment setup script with --docker flag
 echo -e "${GREEN}Setting up environment files...${NC}"
@@ -49,6 +50,11 @@ if [ "$DEV_MODE" = true ]; then
 else
     echo -e "${YELLOW}Production mode - using docker-compose.yml${NC}"
     COMPOSE_FILE="docker-compose.yml"
+    
+    # Build custom frontend image
+    echo -e "${GREEN}Building custom frontend image...${NC}"
+    docker build -t oji-forms-client:custom -f docker/Dockerfile.client .
+    echo -e "${GREEN}✓ Custom image built successfully${NC}"
 fi
 
 # Start Docker containers
@@ -61,7 +67,8 @@ if [ "$DEV_MODE" = true ]; then
     echo -e "${YELLOW}Please wait for the frontend to finish building (this may take a few minutes)${NC}"
     echo -e "${GREEN}Then visit: http://localhost:3000${NC}"
 else
-    echo -e "${BLUE}Production environment setup complete!${NC}"
+    echo -e "${BLUE}Oji Forms production environment setup complete!${NC}"
+    echo -e "${GREEN}✓ Using custom frontend image with your UI customizations${NC}"
     echo -e "${YELLOW}Please wait a moment for all services to start${NC}"
     echo -e "${GREEN}Then visit: http://localhost${NC}"
 fi

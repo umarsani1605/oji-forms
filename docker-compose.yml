@@ -5,6 +5,8 @@ services:
     container_name: opnform-api
     volumes: &api-environment-volumes
       - opnform_storage:/usr/share/nginx/html/storage:rw
+      - ./api:/usr/share/nginx/html:delegated
+      - /usr/share/nginx/html/vendor
     environment: &api-env
       APP_ENV: production
       # Database settings
@@ -62,7 +64,7 @@ services:
       start_period: 70s # Allow time for first scheduled run and cache write
 
   ui:
-    image: jhumanj/opnform-client:latest
+    image: oji-forms-client:custom
     container_name: opnform-client
     env_file:
       - ./client/.env
