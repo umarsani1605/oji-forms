@@ -51,10 +51,15 @@ else
     echo -e "${YELLOW}Production mode - using docker-compose.yml${NC}"
     COMPOSE_FILE="docker-compose.yml"
     
+    # Build custom API image
+    echo -e "${GREEN}Building custom API image...${NC}"
+    docker build -t oji-forms-api:custom -f docker/Dockerfile.api .
+    echo -e "${GREEN}✓ Custom API image built successfully${NC}"
+    
     # Build custom frontend image
     echo -e "${GREEN}Building custom frontend image...${NC}"
     docker build -t oji-forms-client:custom -f docker/Dockerfile.client .
-    echo -e "${GREEN}✓ Custom image built successfully${NC}"
+    echo -e "${GREEN}✓ Custom frontend image built successfully${NC}"
 fi
 
 # Start Docker containers
@@ -68,6 +73,7 @@ if [ "$DEV_MODE" = true ]; then
     echo -e "${GREEN}Then visit: http://localhost:3000${NC}"
 else
     echo -e "${BLUE}Oji Forms production environment setup complete!${NC}"
+    echo -e "${GREEN}✓ Using custom API image with your backend customizations${NC}"
     echo -e "${GREEN}✓ Using custom frontend image with your UI customizations${NC}"
     echo -e "${YELLOW}Please wait a moment for all services to start${NC}"
     echo -e "${GREEN}Then visit: http://localhost${NC}"

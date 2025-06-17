@@ -1,12 +1,10 @@
 ---
 services:
   api: &api-environment
-    image: jhumanj/opnform-api:latest
+    image: oji-forms-api:custom
     container_name: opnform-api
     volumes: &api-environment-volumes
       - opnform_storage:/usr/share/nginx/html/storage:rw
-      - ./api:/usr/share/nginx/html:delegated
-      - /usr/share/nginx/html/vendor
     environment: &api-env
       APP_ENV: production
       # Database settings
