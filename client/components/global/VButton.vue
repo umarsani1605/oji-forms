@@ -124,15 +124,15 @@ export default {
     colorShades() {
       if (this.color === "blue") {
         return {
-          main: "bg-emerald-600",
-          hover: "hover:bg-emerald-700",
+          main: "bg-emerald-500",
+          hover: "hover:bg-emerald-600",
           ring: "focus:ring-emerald-500",
           "ring-offset": "focus:ring-offset-emerald-200",
           text: "text-white",
         }
       } else if (this.color === "outline-blue") {
         return {
-          main: "bg-transparent border border-emerald-600",
+          main: "bg-transparent border border-emerald-500",
           hover: "hover:bg-emerald-600",
           ring: "focus:ring-emerald-500",
           "ring-offset": "focus:ring-offset-emerald-200",

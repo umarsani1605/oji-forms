@@ -7,7 +7,7 @@
 
     <form
       method="POST"
-      class="mt-4"
+      class="mt-4 space-y-4"
       @submit.prevent="login"
       @keydown="form.onKeydown($event)"
     >
@@ -17,13 +17,13 @@
         :form="form"
         label="Email"
         :required="true"
-        placeholder="Your email address"
+        placeholder="Email"
       />
 
       <!-- Password -->
       <text-input
         native-type="password"
-        placeholder="Your password"
+        placeholder="Password"
         name="password"
         :form="form"
         label="Password"
@@ -39,16 +39,6 @@
           size="small"
           label="Remember me"
         />
-
-        <div class="w-full md:w-1/2 text-right">
-          <a
-            href="#"
-            class="text-xs hover:underline text-gray-500 sm:text-sm hover:text-gray-700"
-            @click.prevent="showForgotModal = true"
-          >
-            Forgot your password?
-          </a>
-        </div>
       </div>
 
       <!-- Submit Button -->
@@ -73,25 +63,6 @@
         />
         <span class="mx-2">Sign in with Google</span>
       </v-button>
-      <p
-        v-if="!useFeatureFlag('self_hosted')"
-        class="text-gray-500 text-sm text-center mt-4"
-      >
-        Don't have an account?
-        <a
-          v-if="isQuick"
-          href="#"
-          class="font-semibold ml-1"
-          @click.prevent="$emit('openRegister')"
-        >Sign Up</a>
-        <NuxtLink
-          v-else
-          :to="{ name: 'register' }"
-          class="font-semibold ml-1"
-        >
-          Sign Up
-        </NuxtLink>
-      </p>
     </form>
   </div>
 </template>

@@ -32,7 +32,7 @@
           <label
             :aria-label="id ? id : name"
             :for="id ? id : name"
-            :class="theme.default.fontSize"
+            :class="theme.default.fontSize + ' font-medium'"
           >
             {{ label }}
             <span

@@ -9,9 +9,9 @@
         md: 'relative my-1.5',
         lg: 'relative my-1.5',
       },
-      label: 'text-gray-700 dark:text-gray-300 font-semibold',
+      label: 'text-gray-700 dark:text-gray-300 font-medium',
       input:
-        'flex-1 appearance-none border border-gray-300 dark:border-gray-600 w-full bg-white text-gray-700 dark:bg-notion-dark-light dark:text-gray-300 dark:placeholder-gray-500 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:border-transparent focus:ring-opacity-100',
+        'flex-1 font-normal appearance-none border border-gray-300 dark:border-gray-600 w-full bg-white text-gray-700 dark:bg-notion-dark-light dark:text-gray-300 dark:placeholder-gray-500 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:border-transparent focus:ring-opacity-100',
       help: 'text-gray-500',
       spacing: {
         horizontal: {
