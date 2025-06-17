@@ -10,9 +10,9 @@
     </p>
     <template v-else>
       <section class="py-12 sm:py-16 bg-gray-50 border-b border-gray-200">
-        <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
           <div class="text-center mx-auto">
-            <div class="font-semibold sm:w-full text-blue-500 mb-3">
+            <div class="font-semibold sm:w-full text-emerald-500 mb-3">
               {{ industry.name }}
             </div>
             <h1
@@ -34,7 +34,7 @@
       >
         <template #before-lists>
           <section class="py-12 bg-white border-t border-gray-200 sm:py-16">
-            <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
               <p class="text-gray-600 font-normal">
                 {{ industry.description }}
               </p>

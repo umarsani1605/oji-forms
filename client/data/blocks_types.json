@@ -4,8 +4,8 @@
     "title": "Text Input",
     "icon": "i-heroicons-bars-3-bottom-left",
     "default_block_name": "Your name",
-    "bg_class": "bg-blue-100",
-    "text_class": "text-blue-900",
+    "bg_class": "bg-emerald-100",
+    "text_class": "text-emerald-900",
     "is_input": true,
     "default_values": {
       "multi_lines": false,
@@ -17,8 +17,8 @@
     "title": "Rich Text Input",
     "icon": "i-heroicons-bars-3-20-solid",
     "default_block_name": "Description",
-    "bg_class": "bg-blue-100",
-    "text_class": "text-blue-900",
+    "bg_class": "bg-emerald-100",
+    "text_class": "text-emerald-900",
     "is_input": true,
     "default_values": {
       "max_char_limit": 2000
@@ -39,8 +39,8 @@
     "title": "URL Input",
     "icon": "i-heroicons-link-20-solid",
     "default_block_name": "Link",
-    "bg_class": "bg-blue-100",
-    "text_class": "text-blue-900",
+    "bg_class": "bg-emerald-100",
+    "text_class": "text-emerald-900",
     "is_input": true,
     "default_values": {
       "max_char_limit": 2000
@@ -51,8 +51,8 @@
     "title": "Phone Input",
     "icon": "i-heroicons-phone-20-solid",
     "default_block_name": "Phone Number",
-    "bg_class": "bg-blue-100",
-    "text_class": "text-blue-900",
+    "bg_class": "bg-emerald-100",
+    "text_class": "text-emerald-900",
     "is_input": true,
     "default_values": {}
   },
@@ -61,8 +61,8 @@
     "title": "Email Input",
     "icon": "i-heroicons-at-symbol-20-solid",
     "default_block_name": "Email",
-    "bg_class": "bg-blue-100",
-    "text_class": "text-blue-900",
+    "bg_class": "bg-emerald-100",
+    "text_class": "text-emerald-900",
     "is_input": true,
     "default_values": {
       "max_char_limit": 2000

@@ -244,7 +244,7 @@
     }
 
     .bg-blue-light {
-      background-color: #3B82F6;
+      background-color: #09b880;
     }
 
     .bg-no-repeat {

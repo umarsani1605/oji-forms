@@ -10,11 +10,11 @@
       v-motion
       :initial="{ opacity: 0, scale: 0.95 }"
       :enter="{ opacity: 1, scale: 1, transition: { duration: 300 } }"
-      class="flex items-center gap-3 bg-blue-50 px-4 py-3 rounded-lg w-full"
+      class="flex items-center gap-3 bg-emerald-50 px-4 py-3 rounded-lg w-full"
     >
       <div 
         v-motion
-        class="w-7 h-7 rounded-full bg-gradient-to-r from-blue-500 to-blue-300 flex items-center justify-center text-base"
+        class="w-7 h-7 rounded-full bg-gradient-to-r from-emerald-500 to-emerald-300 flex items-center justify-center text-base"
         :initial="{ rotate: 0 }"
         :enter="{ 
           rotate: [-8, 8, -8, 8, 0],

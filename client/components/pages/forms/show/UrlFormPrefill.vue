@@ -11,7 +11,7 @@
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6 mr-2 text-blue-600 inline"
+        class="h-6 w-6 mr-2 text-emerald-600 inline"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"

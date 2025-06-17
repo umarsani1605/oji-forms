@@ -16,7 +16,7 @@
         v-model="form.properties"
         item-key="id"
         class="mx-auto w-full overflow-hidden rounded-md border border-gray-300 bg-white transition-colors dark:bg-notion-dark-light"
-        ghost-class="bg-nt-blue-lighter"
+        ghost-class="bg-nt-emerald-lighter"
         :animation="200"
       >
         <template #item="{ element, index }">
@@ -26,7 +26,7 @@
               'bg-gray-100 ': element.hidden,
               'bg-white ': !element.hidden,
               'border-b': index !== form.properties.length - 1,
-              ' !border-blue-400 border-b-2': element.type === 'nf-page-break',
+              ' !border-emerald-400 border-b-2': element.type === 'nf-page-break',
             }"
           >
             <div
@@ -52,9 +52,9 @@
 
               <UTooltip :text="element.hidden ? 'Show Block' : 'Hide Block'">
                 <button
-                  class="hidden !cursor-pointer rounded p-1 transition-colors hover:bg-nt-blue-lighter items-center justify-center"
+                  class="hidden !cursor-pointer rounded p-1 transition-colors hover:bg-nt-emerald-lighter items-center justify-center"
                   :class="{
-                    'text-gray-300 hover:text-blue-500 md:group-hover:flex': !element.hidden,
+                    'text-gray-300 hover:text-emerald-500 md:group-hover:flex': !element.hidden,
                     'text-gray-300 hover:text-gray-500 md:flex': element.hidden,
                   }"
                   @click="toggleHidden(element)"
@@ -78,7 +78,7 @@
                 :text="element.required ? 'Make it optional' : 'Make it required'"
               >
                 <button
-                  class="hidden cursor-pointer rounded p-0.5 transition-colors hover:bg-nt-blue-lighter items-center px-1 justify-center"
+                  class="hidden cursor-pointer rounded p-0.5 transition-colors hover:bg-nt-emerald-lighter items-center px-1 justify-center"
                   :class="{
                     'md:group-hover:flex text-gray-300 hover:text-red-500': !element.required,
                     'md:flex text-red-500': element.required,
@@ -93,7 +93,7 @@
                 </button>
               </UTooltip>
               <button
-                class="cursor-pointer rounded p-1 transition-colors hover:bg-nt-blue-lighter text-gray-300 hover:text-blue-500 flex items-center justify-center"
+                class="cursor-pointer rounded p-1 transition-colors hover:bg-nt-emerald-lighter text-gray-300 hover:text-emerald-500 flex items-center justify-center"
                 @click="editOptions(index)"
               >
                 <Icon

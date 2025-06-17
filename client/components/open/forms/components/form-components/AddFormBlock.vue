@@ -121,6 +121,6 @@ workingFormStore.resetBlockForm()
 
 <style lang="scss" scoped>
 .ghost-item {
-  @apply bg-blue-100 dark:bg-blue-900 rounded-md w-full col-span-full;
+  @apply bg-emerald-100 dark:bg-emerald-900 rounded-md w-full col-span-full;
 }
 </style>

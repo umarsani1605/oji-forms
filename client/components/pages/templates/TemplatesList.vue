@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="bg-white py-12">
-      <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <div
           class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-6 relative z-20"
         >
@@ -70,7 +70,7 @@
       v-if="showTypes"
       class="py-12 bg-white border-t border-gray-200 sm:py-16"
     >
-      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
         <div class="flex items-center justify-between">
           <h4
             class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl"
@@ -108,7 +108,7 @@
       v-if="showIndustries"
       class="py-12 bg-white border-t border-gray-200 sm:py-16"
     >
-      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
         <div class="flex items-center justify-between">
           <h4
             class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl"

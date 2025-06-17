@@ -10,7 +10,7 @@
           <UButton
             :icon="section.icon"
             :label="section.name"
-            :color="activeSection === section.name ? 'primary' : 'gray'"
+            :color="activeSection === section.name ? 'emerald' : 'gray'"
             :variant="activeSection === section.name ? 'soft' : 'ghost'"
             class="w-full justify-start"
           

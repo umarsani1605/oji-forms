@@ -10,7 +10,7 @@
         <div class="bg-white" />
       </div>
 
-      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="px-4 mx-auto max-w-6xl sm:px-6 lg:px-8">
         <div
           class="max-w-5xl mx-auto bg-white shadow-xl rounded-3xl ring-1 ring-gray-200 lg:flex isolate"
         >
@@ -83,7 +83,7 @@
               >
                 <svg
                   aria-hidden="true"
-                  class="w-5 h-5 shrink-0 stroke-blue-600"
+                  class="w-5 h-5 shrink-0 stroke-emerald-600"
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"

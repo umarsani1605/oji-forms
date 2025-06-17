@@ -3,7 +3,7 @@
     v-if="hasNavbar"
     class="bg-white dark:bg-notion-dark border-b"
   >
-    <div class="max-w-7xl mx-auto px-8">
+    <div class="max-w-6xl mx-auto px-2">
       <div class="flex items-center justify-between h-16">
         <div class="flex items-center">
           <NuxtLink
@@ -11,77 +11,30 @@
             class="flex-shrink-0 font-semibold hover:no-underline flex items-center"
           >
             <img
-              src="/img/logo.svg"
+              src="/img/logo.png"
               alt="notion tools logo"
-              class="w-8 h-8"
+              class="h-8"
             >
             <span
-              class="ml-2 text-md hidden sm:inline text-black dark:text-white"
-            >OpnForm</span>
+              class="ml-4 text-lg hidden sm:inline text-black dark:text-white"
+            >Oji Forms</span>
           </NuxtLink>
-          <workspace-dropdown class="ml-6" />
         </div>
         <div 
           class="hidden md:flex gap-x-2 ml-auto"
         >
           <NuxtLink
-            v-if="$route.name !== 'templates'"
-            :to="{ name: 'templates' }"
+            :to="{ name: 'home' }"
             :class="navLinkClasses"
           >
-            Templates
-          </NuxtLink>
-          <template v-if="appStore.featureBaseEnabled">
-            <button
-              v-if="user"
-              :class="navLinkClasses"
-              @click.prevent="openChangelog"
-            >
-              What's new? <span
-                v-if="hasNewChanges"
-                id="fb-update-badge"
-                class="bg-blue-500 rounded-full px-2 ml-1 text-white"
-              />
-            </button>
-            <a
-              v-else
-              :href="opnformConfig.links.changelog_url"
-              target="_blank"
-              :class="navLinkClasses"
-            >
-              What's new?
-            </a>
-          </template>
-          <NuxtLink
-            v-if="($route.name !== 'ai-form-builder' && user === null) && (!useFeatureFlag('self_hosted') && useFeatureFlag('ai_features'))"
-            :to="{ name: 'ai-form-builder' }"
-            :class="navLinkClasses"
-            class="hidden lg:inline"
-          >
-            AI Form Builder
+            My Forms
           </NuxtLink>
           <NuxtLink
-            v-if="
-              (useFeatureFlag('billing.enabled') &&
-                (user === null || (user && workspace && !workspace.is_pro)) &&
-                $route.name !== 'pricing') && !isSelfHosted
-            "
-            :to="{ name: 'pricing' }"
+            v-if="$route.name !== 'forms-create'"
+            :to="{ name: 'forms-create' }"
             :class="navLinkClasses"
           >
-            <span
-              v-if="user"
-              class="text-primary"
-            >Upgrade</span>
-            <span v-else>Pricing</span>
-          </NuxtLink>
-
-          <NuxtLink
-            :href="helpUrl"
-            :class="navLinkClasses"
-            target="_blank"
-          >
-            Help
+            Create Form
           </NuxtLink>
         </div>
         <div
@@ -136,28 +89,6 @@
                       />
                     </svg>
                     My Forms
-                  </NuxtLink>
-
-                  <NuxtLink
-                    v-if="userOnboarded"
-                    :to="{ name: 'templates-my-templates' }"
-                    class="block px-4 py-2 text-md text-gray-700 hover:bg-gray-100 hover:no-underline transition-colors hover:text-gray-900 dark:text-gray-100 dark:hover:text-white dark:hover:bg-gray-600 flex items-center"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="w-4 h-4 mr-2"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
-                      />
-                    </svg>
-                    My Templates
                   </NuxtLink>
 
                   <NuxtLink

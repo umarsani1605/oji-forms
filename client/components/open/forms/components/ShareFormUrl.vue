@@ -1,6 +1,6 @@
 <template>
   <div
-    class="border border-nt-blue-light bg-blue-50 dark:bg-notion-dark-light rounded-md p-2 overflow-hidden"
+    class="border border-nt-emerald-light bg-emerald-50 dark:bg-notion-dark-light rounded-md p-2 overflow-hidden"
   >
     <div class="flex items-center w-full gap-2">
       <p class="select-all text-nt-blue flex-grow truncate overflow-hidden">

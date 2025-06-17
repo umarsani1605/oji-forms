@@ -1,6 +1,6 @@
 import clonedeep from 'clone-deep'
 import { generateUUID } from "~/lib/utils.js"
-export const DEFAULT_COLOR = '#3B82F6'
+export const DEFAULT_COLOR = '#09b880'
 
 export const initForm = (defaultValue = {}, withDefaultProperties = false) => {
   return useForm({
@@ -15,7 +15,7 @@ export const initForm = (defaultValue = {}, withDefaultProperties = false) => {
     theme: "default",
     width: "centered",
     layout_rtl: false,
-    dark_mode: "auto",
+    dark_mode: "light",
     color: DEFAULT_COLOR,
     no_branding: false,
     uppercase_labels: false,
@@ -100,7 +100,7 @@ export function setFormDefaults(formData) {
     size: 'md',
     border_radius: 'small',
     dark_mode: 'light',
-    color: '#3B82F6',
+    color: '#09b880',
     uppercase_labels: false,
     no_branding: false,
     transparent_background: false,

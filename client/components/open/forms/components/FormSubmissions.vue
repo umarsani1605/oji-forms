@@ -3,7 +3,7 @@
     id="table-page"
     class="w-full flex flex-col"
   >
-    <div class="w-full md:w-4/5 lg:w-3/5 md:mx-auto md:max-w-4xl px-4 pt-4">
+    <div class="max-w-6xl w-full mx-auto px-2 pt-4">
       <h3 class="font-semibold mb-4 text-xl">
         Form Submissions
       </h3>
@@ -68,29 +68,29 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="px-4 pb-4 flex justify-center">
-      <scroll-shadow
-        ref="shadows"
-        class="border h-full notion-database-renderer"
-        :shadow-top-offset="0"
-        :hide-scrollbar="true"
-      >
-        <open-table
-          v-if="form"
-          ref="table"
-          class="max-h-full"
-          :columns="properties"
-          :wrap-columns="wrapColumns"
-          :data="filteredData"
-          :loading="isLoading"
-          :scroll-parent="parentPage"
-          @resize="dataChanged()"
-          @deleted="onDeleteRecord"
-          @updated="(submission)=>onUpdateRecord(submission)"
-          @update-columns="onColumnUpdated"
-        />
-      </scroll-shadow>
+      <div class="pb-4 flex">
+        <scroll-shadow
+          ref="shadows"
+          class="border h-full notion-database-renderer"
+          :shadow-top-offset="0"
+          :hide-scrollbar="true"
+        >
+          <open-table
+            v-if="form"
+            ref="table"
+            class="max-h-full"
+            :columns="properties"
+            :wrap-columns="wrapColumns"
+            :data="filteredData"
+            :loading="isLoading"
+            :scroll-parent="parentPage"
+            @resize="dataChanged()"
+            @deleted="onDeleteRecord"
+            @updated="(submission)=>onUpdateRecord(submission)"
+            @update-columns="onColumnUpdated"
+          />
+        </scroll-shadow>
+      </div>
     </div>
   </div>
 </template>

@@ -29,12 +29,12 @@ class CreateFormsTable extends Migration
             $table->text('submit_button_text')->default(new Expression("('Submit')"));
             $table->boolean('re_fillable')->default(false);
             $table->text('re_fill_button_text')->default(new Expression("('Fill Again')"));
-            $table->string('color')->default('#3B82F6');
+            $table->string('color')->default('#09b880');
             $table->boolean('uppercase_labels')->default(true);
             $table->boolean('no_branding')->default(false);
             $table->boolean('hide_title')->default(false);
             $table->text('submitted_text')->default(new Expression("('Amazing, we saved your answers. Thank you for your time and have a great day!')"));
-            $table->string('dark_mode')->default('auto');
+            $table->string('dark_mode')->default('light');
             $table->string('webhook_url')->nullable();
             $table->boolean('send_submission_confirmation')->default(false);
             $table->string('logo_picture')->nullable();

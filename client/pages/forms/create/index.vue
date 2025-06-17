@@ -4,11 +4,11 @@
       key="2"
       class="w-full flex flex-grow flex-col"
     >
-      <create-form-base-modal
+      <!-- <create-form-base-modal
         :show="showInitialFormModal"
         @form-generated="formGenerated"
         @close="showInitialFormModal = false"
-      />
+      /> -->
 
       <form-editor
         v-if="form && !workspacesLoading"
@@ -77,7 +77,7 @@ const { content: form } = storeToRefs(workingFormStore)
 // State
 const loading = ref(false)
 const error = ref("")
-const showInitialFormModal = ref(false)
+// const showInitialFormModal = ref(false)
 const formInitialHash = ref(null)
 
 watch(
@@ -111,7 +111,7 @@ onMounted(() => {
     }
   } else {
     // No template loaded, ask how to start
-    showInitialFormModal.value = true
+    // showInitialFormModal.value = true
   }
   // workspacesStore.loadIfEmpty()
 })

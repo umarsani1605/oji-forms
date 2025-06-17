@@ -3,7 +3,7 @@
     <a
       v-if="backButton"
       href="#"
-      class="ml-2 flex text-blue font-semibold text-sm -m-1 hover:bg-blue-500/10 rounded-md p-1 group"
+      class="ml-2 flex text-blue font-semibold text-sm -m-1 hover:bg-emerald-500/10 rounded-md p-1 group"
       @click.prevent="$emit('go-back')"
     >
       <Icon
@@ -82,7 +82,7 @@
         </template>
         <UButton
           v-track.save_form_click
-          color="primary"
+          color="emerald"
           class="px-8 md:px-4 py-2"
           :loading="updateFormLoading"
           :class="saveButtonClass"

@@ -7,9 +7,9 @@
     :class="[
       getFieldWidthClasses(field),
       {
-        'group/nffield hover:bg-gray-100/50 relative hover:z-10 transition-colors hover:border-gray-200 dark:hover:!bg-gray-900 border-dashed border border-transparent box-border dark:hover:border-blue-900 rounded-md': isAdminPreview,
+        'group/nffield hover:bg-gray-100/50 relative hover:z-10 transition-colors hover:border-gray-200 dark:hover:!bg-gray-900 border-dashed border border-transparent box-border dark:hover:border-emerald-900 rounded-md': isAdminPreview,
         'cursor-pointer':workingFormStore.showEditFieldSidebar && isAdminPreview,
-        'bg-blue-50 hover:!bg-blue-50 dark:bg-gray-800 rounded-md': beingEdited,
+        'bg-emerald-50 hover:!bg-emerald-50 dark:bg-gray-800 rounded-md': beingEdited,
       }]"
     @click="setFieldAsSelected"
   >
@@ -25,7 +25,7 @@
           class="flex lg:flex-col bg-white !bg-white dark:!bg-white border rounded-md shadow-sm z-50 p-[1px] relative"
         >
           <div
-            class="p-1 hover:!text-blue-500 dark:hover:!text-blue-500 hover:bg-blue-50 cursor-pointer !text-gray-500 dark:!text-gray-500 flex items-center justify-center rounded-md"
+            class="p-1 hover:!text-emerald-500 dark:hover:!text-emerald-500 hover:bg-emerald-50 cursor-pointer !text-gray-500 dark:!text-gray-500 flex items-center justify-center rounded-md"
             role="button"
             @click.prevent="openAddFieldSidebar"
           >
@@ -36,12 +36,12 @@
             >
               <Icon
                 name="i-heroicons-plus-circle-20-solid"
-                class="w-5 h-5 !text-gray-500 dark:!text-gray-500 hover:!text-blue-500 dark:hover:!text-blue-500"
+                class="w-5 h-5 !text-gray-500 dark:!text-gray-500 hover:!text-emerald-500 dark:hover:!text-emerald-500"
               />
             </UTooltip>
           </div>
           <div
-            class="p-1 hover:!text-blue-500 dark:hover:!text-blue-500 hover:bg-blue-50 cursor-pointer flex items-center justify-center text-center !text-gray-500 dark:!text-gray-500 rounded-md"
+            class="p-1 hover:!text-emerald-500 dark:hover:!text-emerald-500 hover:bg-emerald-50 cursor-pointer flex items-center justify-center text-center !text-gray-500 dark:!text-gray-500 rounded-md"
             role="button"
             @click.prevent="editFieldOptions"
           >
@@ -52,7 +52,7 @@
             >
               <Icon
                 name="heroicons:cog-8-tooth-20-solid"
-                class="w-5 h-5 !text-gray-500 dark:!text-gray-500 hover:!text-blue-500 dark:hover:!text-blue-500"
+                class="w-5 h-5 !text-gray-500 dark:!text-gray-500 hover:!text-emerald-500 dark:hover:!text-emerald-500"
               />
             </UTooltip>
           </div>
@@ -118,7 +118,7 @@
           >
             <a
               href="#"
-              class="text-blue-800 dark:text-blue-200"
+              class="text-emerald-800 dark:text-emerald-200"
               @click.prevent="editFieldOptions"
             >Open block settings to upload image.</a>
           </div>

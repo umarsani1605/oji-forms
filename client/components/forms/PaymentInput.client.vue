@@ -45,7 +45,7 @@
       <template v-else>
         <div
           v-if="shouldShowPreviewMessage || (props.isAdminPreview && (!stripeState.stripeAccountId || !publishableKey || !isStripeJsLoaded))"
-          class="my-4 p-4 text-center text-sm text-blue-700 bg-blue-100 dark:bg-blue-900/50 dark:text-blue-300 rounded-md"
+          class="my-4 p-4 text-center text-sm text-emerald-700 bg-emerald-100 dark:bg-emerald-900/50 dark:text-emerald-300 rounded-md"
         >
           <p v-if="shouldShowPreviewMessage">Please save the form to activate the payment preview.</p>
           <p v-else>
@@ -142,7 +142,7 @@
           </StripeElements>
         </div>
         <div v-else>
-          <div v-if="props.isAdminPreview" class="my-4 p-4 text-center text-sm text-blue-700 bg-blue-100 dark:bg-blue-900/50 dark:text-blue-300 rounded-md">
+          <div v-if="props.isAdminPreview" class="my-4 p-4 text-center text-sm text-emerald-700 bg-emerald-100 dark:bg-emerald-900/50 dark:text-emerald-300 rounded-md">
             <p>Payment component initializing. {{ !!stripeState?.stripeAccountId ? 'Stripe account connected': 'No Stripe account connected' }}.</p>
             <p class="mt-2">The payment form will be visible to users when viewing the published form.</p>
             <p v-if="!publishableKey" class="mt-2 text-red-500">Missing Stripe publishable key in configuration.</p>

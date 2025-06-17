@@ -12,14 +12,14 @@
         >
       </div>
 
-      <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative">
+      <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto relative">
         <div class="max-w-4xl mx-auto text-center">
           <h1
             class="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-900 tracking-tight"
           >
             Say goodbye to tedious form building with OpnForm's new
             <span
-              class="bg-clip-text text-transparent bg-gradient-to-r lg:block from-blue-600 to-blue-400"
+              class="bg-clip-text text-transparent bg-gradient-to-r lg:block from-emerald-600 to-emerald-400"
             >AI-powered feature!</span>
           </h1>
           <p
@@ -51,10 +51,10 @@
 
         <div class="max-w-6xl mx-auto mt-12 sm:mt-16">
           <div
-            class="-m-2 rounded-xl bg-blue-900/5 p-2 backdrop-blur-sm ring-1 ring-inset ring-blue-900/10 lg:-m-4 lg:rounded-2xl lg:p-4"
+            class="-m-2 rounded-xl bg-emerald-900/5 p-2 backdrop-blur-sm ring-1 ring-inset ring-emerald-900/10 lg:-m-4 lg:rounded-2xl lg:p-4"
           >
             <video
-              class="rounded-md ring-1 ring-gray-200 shadow-xl shadow-blue-600/10 ring-blue-900/10"
+              class="rounded-md ring-1 ring-gray-200 shadow-xl shadow-emerald-600/10 ring-emerald-900/10"
               controls
               autoplay
               loop
@@ -130,9 +130,9 @@
 
     <!-- START HOW IT WORKS -->
     <section class="bg-white py-12 sm:py-16 lg:py-20 xl:py-24">
-      <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <div class="text-center max-w-3xl mx-auto">
-          <h2 class="text-sm font-semibold text-blue-600">
+          <h2 class="text-sm font-semibold text-emerald-600">
             How Does It Work?
           </h2>
           <p
@@ -160,7 +160,7 @@
             >
 
             <div
-              class="w-16 h-16 rounded-full bg-blue-50 border-2 border-blue-200 hidden xl:inline-flex items-center justify-center text-blue-600 text-2xl font-semibold leading-none"
+              class="w-16 h-16 rounded-full bg-emerald-50 border-2 border-emerald-200 hidden xl:inline-flex items-center justify-center text-emerald-600 text-2xl font-semibold leading-none"
             >
               1
             </div>
@@ -198,7 +198,7 @@
               alt=""
             >
             <div
-              class="w-16 h-16 lg:order-2 rounded-full bg-blue-50 border-2 border-blue-200 hidden xl:inline-flex items-center justify-center text-blue-600 text-2xl font-semibold leading-none"
+              class="w-16 h-16 lg:order-2 rounded-full bg-emerald-50 border-2 border-emerald-200 hidden xl:inline-flex items-center justify-center text-emerald-600 text-2xl font-semibold leading-none"
             >
               2
             </div>
@@ -235,7 +235,7 @@
               alt=""
             >
             <div
-              class="w-16 h-16 rounded-full bg-blue-50 border-2 border-blue-200 hidden xl:inline-flex items-center justify-center text-blue-600 text-2xl font-semibold leading-none"
+              class="w-16 h-16 rounded-full bg-emerald-50 border-2 border-emerald-200 hidden xl:inline-flex items-center justify-center text-emerald-600 text-2xl font-semibold leading-none"
             >
               3
             </div>
@@ -269,9 +269,9 @@
 
     <!-- START EXAMPLES -->
     <!--    <section class="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24">-->
-    <!--        <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">-->
+    <!--        <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">-->
     <!--          <div class="text-center max-w-3xl mx-auto">-->
-    <!--            <h2 class="text-sm font-semibold text-blue-600">-->
+    <!--            <h2 class="text-sm font-semibold text-emerald-600">-->
     <!--              Examples-->
     <!--            </h2>-->
     <!--            <p-->
@@ -401,9 +401,9 @@
 
     <!-- START TESTIMONIALS -->
     <!--    <section class="bg-white py-12 sm:py-16 lg:py-20 xl:py-24">-->
-    <!--      <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">-->
+    <!--      <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">-->
     <!--        <div class="text-center max-w-3xl mx-auto">-->
-    <!--          <h2 class="text-sm font-semibold text-blue-600">-->
+    <!--          <h2 class="text-sm font-semibold text-emerald-600">-->
     <!--            Customer Testimonials-->
     <!--          </h2>-->
     <!--          <p-->
@@ -421,7 +421,7 @@
 
     <!-- START FAQS -->
     <!--    <section class="bg-white py-12 sm:py-16 lg:py-20 xl:py-24 border-t border-gray-200">-->
-    <!--      <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">-->
+    <!--      <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">-->
     <!--        <div class="text-center max-w-3xl mx-auto">-->
     <!--          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-900 tracking-tight lg:leading-tight">-->
     <!--            Frequently Asked Questions-->
@@ -510,7 +510,7 @@
     <section
       class="bg-gradient-to-b from-gray-100 to-white py-12 sm:py-16 lg:pt-20 xl:pt-24"
     >
-      <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <div class="flex items-center justify-center gap-8">
           <img
             class="w-auto h-12"
@@ -541,7 +541,7 @@
             class="mt-4 sm:mt-5 text-base leading-7 sm:text-xl sm:leading-9 font-medium text-gray-500"
           >
             It takes seconds, you don't need to know how to code and
-            <span class="text-blue-600">it's free</span>.
+            <span class="text-emerald-600">it's free</span>.
           </p>
 
           <div class="mt-8 flex justify-center">

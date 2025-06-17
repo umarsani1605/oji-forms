@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-full border-t">
     <section class="py-12 sm:py-16 bg-gray-50 border-b border-gray-200">
-      <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <div class="text-center max-w-xl mx-auto">
           <h1
             class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900"

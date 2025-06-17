@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
     <div class="flex bg-gray-50">
-      <div class="w-full md:w-4/5 md:mx-auto md:max-w-4xl px-4">
+      <div class="max-w-6xl w-full mx-auto">
         <div class="pt-4 pb-0">
           <div class="flex">
             <h2 class="flex-grow text-gray-900">
@@ -22,7 +22,7 @@
                 <nuxt-link
                   :to="{ name: tab.route }"
                   class="hover:no-underline inline-block py-4 rounded-t-lg border-b-2 text-gray-500 hover:text-gray-600"
-                  active-class="text-blue-600 hover:text-blue-900 dark:text-blue-500 dark:hover:text-blue-500 border-blue-600 dark:border-blue-500"
+                  active-class="text-emerald-600 hover:text-emerald-900 dark:text-emerald-500 dark:hover:text-emerald-500 border-emerald-600 dark:border-emerald-500"
                 >
                   {{ tab.name }}
                 </nuxt-link>
@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="flex bg-white">
-      <div class="w-full md:w-4/5 md:mx-auto md:max-w-4xl px-4">
+      <div class="max-w-6xl w-full mx-auto">
         <div class="mt-4 pb-0">
           <NuxtPage />
         </div>

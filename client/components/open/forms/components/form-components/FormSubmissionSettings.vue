@@ -58,7 +58,7 @@
           When matching values are found in the selected column(s), the (first) existing record will be updated instead of creating a new record. If there's no match, a new record will be created.
           <a
             href="#"
-            class="text-blue-500 hover:underline"
+            class="text-emerald-500 hover:underline"
             @click.prevent="crisp.openHelpdeskArticle('how-to-update-a-record-on-form-submission-1t1jwmn')"
           >
             Learn more.

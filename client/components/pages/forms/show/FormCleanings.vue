@@ -2,7 +2,7 @@
   <VTransition>
     <section
       v-if="hasCleanings && !hideWarning"
-      class="flex gap-3 p-4 bg-blue-50 dark:bg-blue-950 rounded-lg border border-blue-300 border-solid max-md:flex-wrap mb-2"
+      class="flex gap-3 p-4 bg-emerald-50 dark:bg-emerald-950 rounded-lg border border-emerald-300 border-solid max-md:flex-wrap mb-2"
       aria-labelledby="notification-title"
     >
       <div class="flex justify-center items-center self-start py-px">
@@ -15,7 +15,7 @@
         <div class="flex flex-col text-sm leading-5 text-slate-900 max-md:max-w-full">
           <h5
             id="notification-title"
-            class="font-medium max-md:max-w-full text-blue-500"
+            class="font-medium max-md:max-w-full text-emerald-500"
           >
             Upgrade to unlock all features
           </h5>

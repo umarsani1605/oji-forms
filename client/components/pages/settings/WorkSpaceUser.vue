@@ -7,6 +7,7 @@
       <UButton
         v-if="!workspace.is_readonly"
         label="Invite User"
+        color="emerald"
         icon="i-heroicons-user-plus-20-solid"
         :loading="loading"
         @click="userInviteModal = true"
@@ -105,7 +106,7 @@
                 <UButton
                   icon="i-heroicons-pencil"
                   color="gray"
-                  class="hover:text-blue-500"
+                  class="hover:text-emerald-500"
                   square
                   @click="editUser(index)"
                 />
@@ -134,7 +135,7 @@
               <UButton
                 icon="i-heroicons-envelope"
                 color="gray"
-                class="hover:text-blue-500"
+                class="hover:text-emerald-500"
                 square
                 @click="resendInvite(index)"
               />

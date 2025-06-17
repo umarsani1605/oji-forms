@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full md:w-4/5 lg:w-3/5 md:mx-auto md:max-w-4xl p-4">
+  <div class="max-w-6xl w-full mx-auto p-4">
     <div class="mb-20">
       <div class="mb-6 pb-6 border-b w-full flex flex-col sm:flex-row gap-2">
         <regenerate-form-link

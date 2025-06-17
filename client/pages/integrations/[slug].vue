@@ -28,7 +28,7 @@
         <p class="text-sm">
           <NuxtLink
             :to="{ name: 'integrations' }"
-            class="text-blue-500 hover:text-blue-700 inline-block"
+            class="text-emerald-500 hover:text-emerald-700 inline-block"
           >
             Discover our other Integrations
           </NuxtLink>

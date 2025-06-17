@@ -56,7 +56,7 @@ class FormFactory extends Factory
             'border_radius' => $this->faker->randomElement(Form::BORDER_RADIUS),
             'width' => $this->faker->randomElement(Form::WIDTHS),
             'dark_mode' => $this->faker->randomElement(Form::DARK_MODE_VALUES),
-            'color' => '#3B82F6',
+            'color' => '#09b880',
             'no_branding' => false,
             'uppercase_labels' => true,
             'transparent_background' => false,

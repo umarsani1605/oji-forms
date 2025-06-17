@@ -2,7 +2,7 @@
   <div class="bg-white">
     <template v-if="form">
       <div class="flex bg-gray-50">
-        <div class="w-full md:w-4/5 lg:w-3/5 md:mx-auto md:max-w-4xl px-4">
+        <div class="max-w-6xl w-full mx-auto px-4">
           <div class="pt-4 pb-0">
             <a
               href="#"
@@ -54,7 +54,7 @@
                 <UButton
                   v-if="!workspace.is_readonly"
                   v-track.edit_form_click="{form_id: form.id, form_slug: form.slug}"
-                  color="primary"
+                  color="emerald"
                   icon="i-heroicons-pencil"
                   class="hover:no-underline"
                   :to="{ name: 'forms-slug-edit', params: { slug: form.slug } }"
@@ -99,7 +99,7 @@
                   <nuxt-link
                     :to="{ name: tab.route, params: tab.params ?? {} }"
                     class="hover:no-underline inline-block py-4 rounded-t-lg border-b-2 text-gray-500 hover:text-gray-600"
-                    active-class="text-blue-600 hover:text-blue-900 dark:text-blue-500 dark:hover:text-blue-500 border-blue-600 dark:border-blue-500"
+                    active-class="text-emerald-600 hover:text-emerald-900 dark:text-emerald-500 dark:hover:text-emerald-500 border-emerald-600 dark:border-emerald-500"
                   >
                     {{ tab.name }}
                   </nuxt-link>

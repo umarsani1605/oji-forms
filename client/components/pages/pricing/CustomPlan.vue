@@ -1,9 +1,9 @@
 <template>
   <section class="relative">
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div class="px-4 mx-auto max-w-6xl sm:px-6 lg:px-8">
       <div class="max-w-5xl mx-auto bg-white shadow-xl rounded-3xl ring-1 ring-gray-200 lg:flex isolate">
         <div class="p-8 sm:p-8 lg:flex-auto">
-          <h3 class="text-3xl font-semibold tracking-tight text-blue-500">
+          <h3 class="text-3xl font-semibold tracking-tight text-emerald-500">
             Enterprise Plan
           </h3>
           <p class="mt-2 text-base font-medium leading-7 text-gray-600">
@@ -22,7 +22,7 @@
             <li class="flex gap-x-3">
               <svg
                 aria-hidden="true"
-                class="w-5 h-5 shrink-0 stroke-blue-600"
+                class="w-5 h-5 shrink-0 stroke-emerald-600"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@
             <li class="flex gap-x-3">
               <svg
                 aria-hidden="true"
-                class="w-5 h-5 shrink-0 stroke-blue-600"
+                class="w-5 h-5 shrink-0 stroke-emerald-600"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@
             <li class="flex gap-x-3">
               <svg
                 aria-hidden="true"
-                class="w-5 h-5 shrink-0 stroke-blue-600"
+                class="w-5 h-5 shrink-0 stroke-emerald-600"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@
             <li class="flex gap-x-3">
               <svg
                 aria-hidden="true"
-                class="w-5 h-5 shrink-0 stroke-blue-600"
+                class="w-5 h-5 shrink-0 stroke-emerald-600"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@
             <li class="flex gap-x-3">
               <svg
                 aria-hidden="true"
-                class="w-5 h-5 shrink-0 stroke-blue-600"
+                class="w-5 h-5 shrink-0 stroke-emerald-600"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@
             <li class="flex gap-x-3">
               <svg
                 aria-hidden="true"
-                class="w-5 h-5 shrink-0 stroke-blue-600"
+                class="w-5 h-5 shrink-0 stroke-emerald-600"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,7 @@
             <li class="flex gap-x-3">
               <svg
                 aria-hidden="true"
-                class="w-5 h-5 shrink-0 stroke-blue-600"
+                class="w-5 h-5 shrink-0 stroke-emerald-600"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +140,7 @@
             </li>
             <li class="flex gap-x-3">
               <Icon
-                class="w-5 h-5 shrink-0 text-blue-600"
+                class="w-5 h-5 shrink-0 text-emerald-600"
                 name="i-heroicons-users-16-solid"
               />
               Unlimited users
@@ -164,7 +164,7 @@
               </p>
               <div class="flex justify-center">
                 <button 
-                  class="v-btn py-2 px-4 bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white transition ease-in duration-200 text-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg flex items-center hover:no-underline"
+                  class="v-btn py-2 px-4 bg-emerald-600 hover:bg-emerald-700 focus:ring-emerald-500 focus:ring-offset-emerald-200 text-white transition ease-in duration-200 text-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg flex items-center hover:no-underline"
                   @click="customPlanClick"
                 >
                   <span class="no-underline mx-auto">Contact Us</span>

@@ -19,7 +19,7 @@ body.dark * {
 @layer base {
 
   :root {
-    --bg-form-color: #2563eb;
+    --bg-form-color: #09b880;
   }
 
   h1 {
@@ -39,7 +39,7 @@ body.dark * {
   }
 
   a {
-    @apply text-blue-600 hover:underline text-inherit;
+    @apply text-emerald-600 hover:underline text-inherit;
   }
 }
 

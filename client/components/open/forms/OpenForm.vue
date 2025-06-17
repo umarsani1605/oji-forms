@@ -21,7 +21,7 @@
           item-key="id"
           class="grid grid-cols-12 relative transition-all w-full"
           :class="[
-            draggingNewBlock ? 'rounded-md bg-blue-50 dark:bg-gray-800' : '',
+            draggingNewBlock ? 'rounded-md bg-emerald-50 dark:bg-gray-800' : '',
           ]"
           ghost-class="ghost-item"
           filter=".not-draggable"
@@ -50,7 +50,7 @@
     />
 
     <!--  Submit, Next and previous buttons  -->
-    <div class="flex flex-wrap justify-center w-full">
+    <div class="flex flex-wrap w-full">
       <open-form-button
         v-if="formPageIndex>0 && previousFieldsPageBreak"
         native-type="button"
@@ -171,6 +171,6 @@ const isProcessing = computed(() => props.formManager.state.isProcessing)
 
 <style lang='scss' scoped>
 .ghost-item {
-  @apply bg-blue-100 dark:bg-blue-900 rounded-md;
+  @apply bg-emerald-100 dark:bg-emerald-900 rounded-md;
 }
 </style>

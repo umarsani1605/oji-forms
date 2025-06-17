@@ -26,6 +26,7 @@
         </template>
         <UButton
           label="New Workspace"
+          color="emerald"
           icon="i-heroicons-plus"
           :loading="loading"
           @click="workspaceModal = true"
@@ -35,7 +36,7 @@
 
     <div
       v-if="loading"
-      class="w-full text-blue-500 text-center"
+      class="w-full text-emerald-500 text-center"
     >
       <Loader class="h-10 w-10 p-5" />
     </div>

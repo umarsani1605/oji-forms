@@ -171,7 +171,7 @@ export default {
         case 'pro':
           return 'capitalize text-xs select-all bg-green-50 rounded-md px-2 py-1 border border-green-200 text-green-500'
         case 'enterprise':
-          return 'capitalize text-xs select-all bg-blue-50 rounded-md px-2 py-1 border border-blue-200  text-blue-500'
+          return 'capitalize text-xs select-all bg-emerald-50 rounded-md px-2 py-1 border border-emerald-200  text-emerald-500'
         default:
           return 'capitalize text-xs select-all bg-gray-50 rounded-md px-2 py-1 border'
       }

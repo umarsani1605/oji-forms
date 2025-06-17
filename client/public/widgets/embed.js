@@ -32,7 +32,7 @@
        align-items:center;
        justify-content:center;
        text-align: center;
-       background-color: #3B82F6;
+       background-color: #09b880;
        padding: 8px 10px;
        border: none;
        cursor: pointer;
@@ -113,7 +113,7 @@
   // Settings
   const emoji = nfData?.emoji || "💬"
   const position = nfData?.position === "left" ? "nf-left" : ""
-  const emojiBgColor = nfData?.bgcolor || "#3B82F6"
+  const emojiBgColor = nfData?.bgcolor || "#09b880"
   const width = nfData?.width || 500
 
   // Remove old popup, if there

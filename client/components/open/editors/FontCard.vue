@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col p-3 rounded-md shadow border-gray-200 border-[0.5px] justify-between w-full cursor-pointer hover:ring ring-blue-300 relative"
+    class="flex flex-col p-3 rounded-md shadow border-gray-200 border-[0.5px] justify-between w-full cursor-pointer hover:ring ring-emerald-300 relative"
     :class="{'ring': isSelected }"
     @click="$emit('select-font')"
   >

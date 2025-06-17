@@ -10,6 +10,7 @@
       <UButton
         label="Connect account"
         icon="i-heroicons-plus"
+        color="emerald"
         :loading="loading"
         @click="providerModal = true"
       />
@@ -17,7 +18,7 @@
 
     <div
       v-if="loading"
-      class="w-full text-blue-500 text-center"
+      class="w-full text-emerald-500 text-center"
     >
       <Loader class="h-10 w-10 p-5" />
     </div>

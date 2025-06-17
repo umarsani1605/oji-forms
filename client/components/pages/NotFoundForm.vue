@@ -23,7 +23,7 @@
             :key="index"
             :to="action.to"
             :href="action.href"
-            class="bg-blue-100/50 rounded-lg px-4 py-6 text-center text-gray-700 hover:bg-blue-100 flex flex-col items-center hover:no-underline"
+            class="bg-emerald-100/50 rounded-lg px-4 py-6 text-center text-gray-700 hover:bg-emerald-100 flex flex-col items-center hover:no-underline"
             @click="action.onClick ? action.onClick() : null"
           >
             <Icon
@@ -47,7 +47,7 @@
             <li>
               Do you want to know why users choose OpnForm? 
               <NuxtLink
-                class="text-blue-500 hover:text-blue-600"
+                class="text-emerald-500 hover:text-emerald-600"
                 :to="{ name: 'ai-form-builder' }"
               >
                 Learn more here!
@@ -56,7 +56,7 @@
             <li>
               Browse Templates
               <NuxtLink
-                class="text-blue-500 hover:text-blue-600"
+                class="text-emerald-500 hover:text-emerald-600"
                 :to="{ name: 'templates' }"
               >
                 Get inspired with ready-to-use form templates!
@@ -65,7 +65,7 @@
             <li>
               Check Out Our Help Center
               <NuxtLink
-                class="text-blue-500 hover:text-blue-600"
+                class="text-emerald-500 hover:text-emerald-600"
                 to="https://help.opnform.com/en/"
               >
                 Find quick answers to common questions.

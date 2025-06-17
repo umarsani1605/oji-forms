@@ -5,7 +5,7 @@
     <div class="hidden md:flex flex-grow">
       <slot name="left" />
     </div>
-    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
       <div class="flex items-center justify-center space-x-4">
         <div
           v-if="displayHome"
@@ -57,7 +57,7 @@
           </NuxtLink>
           <div
             v-else
-            class="text-sm font-semibold sm:w-full w-36 text-blue-500 truncate"
+            class="text-sm font-semibold sm:w-full w-36 text-emerald-500 truncate"
           >
             {{ item.label }}
           </div>

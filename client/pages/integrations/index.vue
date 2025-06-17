@@ -31,7 +31,7 @@
               />
               <div
                 v-if="integration.popular"
-                class="absolute -top-2 -left-3 -rotate-12 bg-blue-500 text-white text-xs font-semibold px-2 py-1 rounded-md shadow"
+                class="absolute -top-2 -left-3 -rotate-12 bg-emerald-500 text-white text-xs font-semibold px-2 py-1 rounded-md shadow"
               >
                 Most Popular
               </div>
@@ -45,7 +45,7 @@
                 </div>
                 <a
                   href="#"
-                  class="text-sm text-blue-500 font-medium hover:underline flex items-center gap-1"
+                  class="text-sm text-emerald-500 font-medium hover:underline flex items-center gap-1"
                 >
                   Setup Guide
                   <Icon
@@ -100,7 +100,7 @@
                 :key="step"
                 class="flex items-start gap-3"
               >
-                <span class="w-8 h-8 flex items-center justify-center rounded-full bg-blue-100 text-blue-700 font-bold">{{ index + 1 }}</span>
+                <span class="w-8 h-8 flex items-center justify-center rounded-full bg-emerald-100 text-emerald-700 font-bold">{{ index + 1 }}</span>
                 <span v-html="step" />
               </li>
             </ol>
@@ -118,7 +118,7 @@
           </p>
           <a
             href="#"
-            class="inline-flex items-center gap-2 mt-6 px-4 py-2 bg-blue-500 text-white text-sm font-semibold rounded-lg shadow hover:bg-blue-600 transition"
+            class="inline-flex items-center gap-2 mt-6 px-4 py-2 bg-emerald-500 text-white text-sm font-semibold rounded-lg shadow hover:bg-emerald-600 transition"
             @click.prevent="crisp.openHelpdesk()"
           >
             Help Center

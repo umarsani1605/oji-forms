@@ -23,7 +23,7 @@ export default {
         return CachedDefaultTheme.getInstance()
       }
     },
-    color: { type: String, default: "#3B82F6" },
+    color: { type: String, default: "#09b880" },
     wrapperClass: { type: String, default: "relative mb-3" },
   },
 

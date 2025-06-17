@@ -55,7 +55,7 @@
     </p>
     <template v-else>
       <section class="pt-12 bg-gray-50 sm:pt-16 border-b pb-[250px] relative">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
           <div
             class="flex flex-col items-center justify-center max-w-5xl gap-8 mx-auto md:gap-12 md:flex-row"
           >
@@ -104,7 +104,7 @@
         </div>
 
         <div class="absolute bottom-0 translate-y-full inset-x-0">
-          <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl -mt-[20px]">
+          <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl -mt-[20px]">
             <div class="flex items-center justify-center">
               <v-button
                 v-track.use_template_button_clicked
@@ -126,7 +126,7 @@
       </section>
 
       <section class="pt-20 pb-12 bg-white sm:pb-16">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
           <div
             class="max-w-4xl mx-auto mt-16 space-y-12 sm:mt-16 sm:space-y-16"
           >
@@ -173,7 +173,7 @@
         v-if="relatedTemplates && relatedTemplates.length > 0"
         class="py-12 bg-white border-t border-gray-200 sm:py-16"
       >
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
           <div class="flex items-center justify-between">
             <h4
               class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl"
@@ -203,7 +203,7 @@
       </section>
 
       <section class="py-12 bg-white border-t border-gray-200 sm:py-16">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-6xl">
           <div class="text-center">
             <h4
               class="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl"
@@ -217,7 +217,7 @@
               class="flex flex-col items-center gap-4 text-center lg:items-start sm:text-left sm:items-start xl:flex-row"
             >
               <div
-                class="inline-flex items-center justify-center w-10 h-10 text-base font-bold bg-white rounded-full shadow-sm ring-1 ring-inset ring-gray-200 text-blue-500 shrink-0"
+                class="inline-flex items-center justify-center w-10 h-10 text-base font-bold bg-white rounded-full shadow-sm ring-1 ring-inset ring-gray-200 text-emerald-500 shrink-0"
               >
                 1
               </div>
@@ -239,7 +239,7 @@
               class="flex flex-col items-center gap-4 text-center lg:items-start sm:text-left sm:items-start xl:flex-row"
             >
               <div
-                class="inline-flex items-center justify-center w-10 h-10 text-base font-bold bg-white rounded-full shadow-sm ring-1 ring-inset ring-gray-200 text-blue-500 shrink-0"
+                class="inline-flex items-center justify-center w-10 h-10 text-base font-bold bg-white rounded-full shadow-sm ring-1 ring-inset ring-gray-200 text-emerald-500 shrink-0"
               >
                 2
               </div>
@@ -256,7 +256,7 @@
           </div>
 
           <!-- add video here -->
-          <!--          <div class="max-w-5xl mx-auto mt-12 shadow-sm rounded-xl bg-blue-50 aspect-video" />-->
+          <!--          <div class="max-w-5xl mx-auto mt-12 shadow-sm rounded-xl bg-emerald-50 aspect-video" />-->
         </div>
       </section>
     </template>

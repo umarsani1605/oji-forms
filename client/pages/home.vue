@@ -1,10 +1,10 @@
 <template>
   <div
     v-if="workspace"
-    class="bg-white"
+    class="bg-white h-full flex flex-col"
   >
     <div class="flex bg-gray-50 pb-5 border-b">
-      <div class="w-full md:w-4/5 lg:w-3/5 md:mx-auto md:max-w-4xl p-4">
+      <div class="max-w-6xl w-full mx-auto px-2">
         <div class="pt-4 pb-0">
           <div class="flex">
             <h2 class="flex-grow text-gray-900">
@@ -37,7 +37,7 @@
       </div>
     </div>
     <div class="flex bg-white">
-      <div class="w-full md:w-4/5 lg:w-3/5 md:mx-auto md:max-w-4xl">
+      <div class="max-w-6xl w-full mx-auto">
         <div class="mt-4 pb-0">
           <text-input
             v-if="forms.length > 0"
@@ -57,9 +57,9 @@
               :class="[
                 'inline-flex items-center rounded-full px-2 py-1 text-xs font-medium ring-1 ring-inset cursor-pointer mr-2',
                 {
-                  'bg-blue-50 text-blue-600 ring-blue-500/10 dark:bg-blue-400':
+                  'bg-emerald-50 text-emerald-600 ring-emerald-500/10 dark:bg-emerald-400':
                     selectedTags.has(tag),
-                  'bg-gray-50 text-gray-600 ring-gray-500/10 dark:bg-gray-700 hover:bg-blue-50 hover:text-blue-600 hover:ring-blue-500/10 hover:dark:bg-blue-400':
+                  'bg-gray-50 text-gray-600 ring-gray-500/10 dark:bg-gray-700 hover:bg-emerald-50 hover:text-emerald-600 hover:ring-emerald-500/10 hover:dark:bg-emerald-400':
                     !selectedTags.has(tag),
                 },
               ]"
@@ -211,7 +211,7 @@
         </div>
       </div>
     </div>
-    <open-form-footer class="mt-8 border-t" />
+    <open-form-footer class="mt-auto border-t" />
   </div>
 </template>
 

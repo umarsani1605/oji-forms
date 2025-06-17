@@ -154,10 +154,10 @@ class Form extends Model implements CachableAttributes
     public function getShareUrlAttribute()
     {
         if ($this->custom_domain) {
-            return 'https://' . $this->custom_domain . '/forms/' . $this->slug;
+            return 'https://' . $this->custom_domain . '/' . $this->slug;
         }
 
-        return front_url('/forms/' . $this->slug);
+        return front_url('/' . $this->slug);
     }
 
     public function getSubmissionsUrlAttribute()

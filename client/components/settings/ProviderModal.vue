@@ -38,13 +38,13 @@
         role="button"
         class="mr-2 bg-gray-50 border border-gray-200 rounded-md transition-colors p-4 pb-2 items-center justify-center w-[170px] h-[110px] flex flex-col relative"
         :class="{
-          'hover:bg-blue-50 group cursor-pointer': service.enabled,
+          'hover:bg-emerald-50 group cursor-pointer': service.enabled,
           'cursor-not-allowed': !service.enabled,
         }"
         @click="connect(service)"
       >
         <div class="flex justify-center">
-          <div class="h-10 w-10 text-gray-500 group-hover:text-blue-500 transition-colors flex items-center">
+          <div class="h-10 w-10 text-gray-500 group-hover:text-emerald-500 transition-colors flex items-center">
             <Icon
               :name="service.icon"
               class=""

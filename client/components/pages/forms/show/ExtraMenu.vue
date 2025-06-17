@@ -142,8 +142,7 @@ const items = computed(() => {
         click: () => {
           duplicateForm()
         }
-      }], 
-    [
+      },
       ...props.isMainPage ? [] : [{
         label: 'Create Template',
         icon: 'i-heroicons-document-plus-20-solid',
@@ -152,14 +151,6 @@ const items = computed(() => {
         }
       }],
       {
-        label: 'Change workspace',
-        icon: 'i-heroicons-building-office-2-20-solid',
-        click: () => {
-          showFormWorkspaceModal.value = true
-        }
-      },
-    ],[
-      {
         label: 'Delete form',
         icon: 'i-heroicons-trash-20-solid',
         click: () => {
@@ -167,8 +158,8 @@ const items = computed(() => {
         },
         class: 'text-red-800 hover:bg-red-50 hover:text-red-600 group',
         iconClass: 'text-red-900 group-hover:text-red-800'
-      }
-      ]
+      },
+    ]
     ]
   ].filter((group) => group.length > 0)
 })

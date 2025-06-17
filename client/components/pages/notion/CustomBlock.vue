@@ -28,7 +28,7 @@
     </div>
     <div
       v-else-if="innerJson.type=='cta'"
-      class="rounded-lg relative bg-gradient-to-r from-blue-400 to-blue-600 shadow-ld p-8 z-10"
+      class="rounded-lg relative bg-gradient-to-r from-emerald-400 to-emerald-600 shadow-ld p-8 z-10"
     >
       <div class="absolute inset-px rounded-[calc(var(--radius)-1px)]">
         <div class="flex justify-center w-full h-full">

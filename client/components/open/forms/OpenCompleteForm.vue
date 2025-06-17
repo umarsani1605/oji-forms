@@ -39,7 +39,7 @@
               />
             </div>
           </div>
-          <div class="flex flex-wrap justify-center w-full text-center">
+          <div class="flex flex-wrap w-full text-center">
             <open-form-button
               :theme="theme"
               :color="form.color"

@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center justify-center min-h-screen gap-4">
-    <Loader class="w-8 h-8 text-blue-500" />
+    <Loader class="w-8 h-8 text-emerald-500" />
     <p class="text-gray-500">
       Preparing your checkout...
     </p>
