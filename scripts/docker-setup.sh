@@ -9,7 +9,7 @@ YELLOW='\033[1;33m'
 NC='\033[0m'
 
 # ASCII Art
-echo -e "${BLUE}"
+echo -e "${GREEN}"
 cat << "EOF"
 
  ░░░░░░       ░░ ░░     ░░░░░░░  ░░░░░░  ░░░░░░  ░░░    ░░░ 
