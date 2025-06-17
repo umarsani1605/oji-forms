@@ -247,14 +247,11 @@ export default {
     hasNavbar() {
       if (this.isIframe) return false
 
-      if (this.$route.name && this.$route.name === "forms-slug") {
-        if (this.form || import.meta.server) {
-          return false
-        } else {
-          // Form not found/404 case - show the navbar
-          return true
-        }
+      // Hide navbar on public form pages
+      if (this.$route.name && (this.$route.name === "forms-slug" || this.$route.name.startsWith("slug"))) {
+        return false
       }
+
       return !this.appStore.navbarHidden
     },
     userOnboarded() {

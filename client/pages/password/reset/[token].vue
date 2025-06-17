@@ -61,6 +61,7 @@ export default {
   setup() {
     definePageMeta({
       middleware: "guest",
+      layout: "basic",
     })
     useOpnSeoMeta({
       title: "Reset Password",
