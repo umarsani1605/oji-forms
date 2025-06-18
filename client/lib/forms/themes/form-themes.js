@@ -5,9 +5,9 @@
   default: {
     default: {
       wrapper: {
-        sm: 'relative my-1',
-        md: 'relative my-1.5',
-        lg: 'relative my-1.5',
+        sm: 'relative my-1 space-y-1',
+        md: 'relative my-1.5 space-y-2',
+        lg: 'relative my-1.5 space-y-2',
       },
       label: 'text-gray-700 dark:text-gray-300 font-medium',
       input:
@@ -44,7 +44,7 @@
       stepLabel: 'text-gray-700 dark:text-gray-300 text-center text-xs'
     },
     Button: {
-      body: 'transition ease-in duration-200 text-center font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 filter hover:brightness-90'
+      body: 'transition ease-in duration-200 text-center font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2 filter hover:brightness-90'
     },
     CodeInput: {
       input: 'overflow-hidden'

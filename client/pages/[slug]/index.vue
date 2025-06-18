@@ -1,7 +1,7 @@
 <template>
   <div
     id="public-form"
-    class="flex flex-col"
+    class="flex flex-col bg-slate-100"
   >
     <div v-if="form && !isIframe && (form.logo_picture || form.cover_picture)">
       <div v-if="form.cover_picture">
@@ -18,7 +18,7 @@
       </div>
       <div
         v-if="form.logo_picture"
-        class="w-full p-5 relative mx-auto"
+        class="w-full p-8 relative mx-auto"
         :class="{'pt-20':!form.cover_picture, 'md:w-3/5 lg:w-1/2 md:max-w-2xl': form.width === 'centered', 'max-w-6xl': (form.width === 'full' && !isIframe) }"
         :style="{ 'direction': form?.layout_rtl ? 'rtl' : 'ltr' }"
       >
@@ -31,8 +31,8 @@
       </div>
     </div>
     <div
-      class="w-full mx-auto px-4"
-      :class="{'mt-6':!isIframe, 'md:w-3/5 lg:w-1/2 md:max-w-2xl': form && (form.width === 'centered'), 'max-w-6xl': (form && form.width === 'full' && !isIframe)}"
+      class="w-full mx-auto p-8 bg-white rounded-xl shadow"
+      :class="{'my-8':!isIframe, 'md:w-3/5 lg:w-1/2 md:max-w-2xl': form && (form.width === 'centered'), 'max-w-6xl': (form && form.width === 'full' && !isIframe)}"
     >
       <div v-if="!formLoading && !form">
         <NotFoundForm />

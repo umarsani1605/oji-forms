@@ -19,7 +19,7 @@
           :list="currentFields"
           group="form-elements"
           item-key="id"
-          class="grid grid-cols-12 relative transition-all w-full"
+          class="grid grid-cols-12 relative transition-all w-full gap-4"
           :class="[
             draggingNewBlock ? 'rounded-md bg-emerald-50 dark:bg-gray-800' : '',
           ]"
@@ -50,7 +50,7 @@
     />
 
     <!--  Submit, Next and previous buttons  -->
-    <div class="flex flex-wrap w-full">
+    <div class="flex flex-wrap w-full mt-4">
       <open-form-button
         v-if="formPageIndex>0 && previousFieldsPageBreak"
         native-type="button"
