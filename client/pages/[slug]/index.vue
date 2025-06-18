@@ -29,7 +29,7 @@
         <img
           alt="Logo Picture"
           :src="form.logo_picture"
-          class="w-28 object-contain transition-all"
+          class="w-32 object-contain transition-all"
         >
       </div>
       <div v-if="!formLoading && !form">

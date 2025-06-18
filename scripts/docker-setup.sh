@@ -58,7 +58,7 @@ else
     
     # Build custom frontend image
     echo -e "${GREEN}Building custom frontend image...${NC}"
-    docker build -t oji-forms-client:custom -f docker/Dockerfile.client .
+    docker build --no-cache -t oji-forms-client:custom -f docker/Dockerfile.client .
     echo -e "${GREEN}✓ Custom frontend image built successfully${NC}"
 fi
 

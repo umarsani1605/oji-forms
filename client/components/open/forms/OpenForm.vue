@@ -19,7 +19,7 @@
           :list="currentFields"
           group="form-elements"
           item-key="id"
-          class="grid grid-cols-12 relative transition-all w-full gap-4"
+          class="grid grid-cols-12 relative transition-all w-full gap-2"
           :class="[
             draggingNewBlock ? 'rounded-md bg-emerald-50 dark:bg-gray-800' : '',
           ]"
