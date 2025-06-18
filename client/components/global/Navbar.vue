@@ -16,7 +16,7 @@
               class="h-8"
             >
             <span
-              class="ml-4 text-lg hidden sm:inline text-black dark:text-white"
+              class="ml-4 text-lg inline text-gray-700 dark:text-white"
             >Oji Forms</span>
           </NuxtLink>
         </div>
@@ -63,7 +63,7 @@
                         :src="user.photo_url"
                         class="rounded-full w-6 h-6"
                       >
-                      <p class="ml-2 hidden sm:inline">
+                      <p class="ml-2 inline">
                         {{ user.name }}
                       </p>
                     </button>

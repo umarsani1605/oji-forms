@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col items-center justify-center w-screen h-screen bg-slate-100">
-    <div class="card w-[400px] p-12 bg-white rounded-2xl shadow-sm">
+  <div class="flex flex-col items-center justify-center w-screen h-dvh md:bg-slate-100">
+    <div class="card w-[500px] p-12 bg-white rounded-2xl md:shadow-sm">
       <div class="flex justify-center mb-12">
         <img src="/img/logo.png" alt="logo" class="h-24" />
       </div>

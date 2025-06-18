@@ -120,7 +120,7 @@
               <div
                 v-for="(form) in enrichedForms"
                 :key="form.id"
-                class="mt-4 p-4 flex group bg-white hover:bg-gray-50 dark:bg-notion-dark items-center relative"
+                class="mt-4 p-4 flex gap-6 group bg-white hover:bg-gray-50 dark:bg-notion-dark items-center relative"
               >
                 <div
                   class="flex-grow items-center truncate cursor-pointer relative"

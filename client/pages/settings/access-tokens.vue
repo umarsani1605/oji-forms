@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex items-center gap-y-4 flex-wrap-reverse">
+    <div class="flex items-center gap-4 flex-wrap">
       <div class="flex-grow">
         <h3 class="font-semibold text-2xl text-gray-900">
           Access Tokens

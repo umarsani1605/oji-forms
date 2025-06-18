@@ -6,7 +6,7 @@
           <div class="pt-4 pb-0">
             <a
               href="#"
-              class="flex text-blue mb-2 font-semibold text-sm"
+              class="flex text-blue mb-4 font-semibold text-sm"
               @click.prevent="goBack"
             >
               <svg
@@ -26,7 +26,7 @@
               Go back
             </a>
 
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap mb-4">
               <h2 class="flex-grow text-gray-900 truncate">
                 {{ form.title }}
               </h2>
@@ -38,7 +38,7 @@
                   icon="i-heroicons-eye"
                   @click="showDraftFormWarningNotification"
                 >
-                  <span class="hidden sm:inline">View <span class="hidden md:inline">form</span></span>
+                  <span class="inline">View <span class="hidden md:inline">form</span></span>
                 </UButton>
                 <UButton
                   v-else
@@ -49,7 +49,7 @@
                   class="hover:no-underline"
                   icon="i-heroicons-eye"
                 >
-                  <span class="hidden sm:inline">View <span class="hidden md:inline">form</span></span>
+                  <span class="inline">View <span class="hidden md:inline">form</span></span>
                 </UButton>
                 <UButton
                   v-if="!workspace.is_readonly"

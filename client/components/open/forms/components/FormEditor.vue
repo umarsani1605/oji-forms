@@ -12,14 +12,14 @@
       <loader class="h-6 w-6 text-emerald-500" />
     </div>
     <div
-      class="border-b bg-white md:hidden fixed inset-0 w-full z-50 flex flex-col items-center justify-center"
+      class="border-b bg-white md:hidden fixed inset-0 w-screen h-dvh z-50 flex flex-col items-center justify-center"
     >
       <Icon
         name="heroicons:exclamation-circle"
         class="w-10 h-10 text-nt-emerald-dark"
       />
       <div class="p-5 text-nt-emerald-dark text-center">
-        OpnForm is not optimized for mobile devices. Please open this page on a device with a larger screen.
+        Oji Forms is not optimized for mobile devices. Please open this page on a device with a larger screen.
       </div>
       <div>
         <UButton
