@@ -3,7 +3,7 @@
     id="table-page"
     class="w-full flex flex-col"
   >
-    <div class="max-w-6xl w-full mx-auto px-2 pt-4">
+    <div class="max-w-6xl w-full mx-auto px-6 pt-4">
       <h3 class="font-semibold mb-4 text-xl">
         Form Submissions
       </h3>

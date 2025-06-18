@@ -2,7 +2,7 @@
   <div class="bg-white">
     <template v-if="form">
       <div class="flex bg-gray-50">
-        <div class="max-w-6xl w-full mx-auto px-4">
+        <div class="max-w-6xl w-full mx-auto px-6">
           <div class="pt-4 pb-0">
             <a
               href="#"

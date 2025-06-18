@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
     <div class="flex bg-gray-50">
-      <div class="max-w-6xl w-full mx-auto">
+      <div class="max-w-6xl w-full mx-auto px-6">
         <div class="pt-4 pb-0">
           <div class="flex">
             <h2 class="flex-grow text-gray-900">
@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="flex bg-white">
-      <div class="max-w-6xl w-full mx-auto">
+      <div class="max-w-6xl w-full mx-auto px-6">
         <div class="mt-4 pb-0">
           <NuxtPage />
         </div>

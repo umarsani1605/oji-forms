@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-6xl w-full mx-auto p-4">
+  <div class="max-w-6xl w-full mx-auto p-6">
     <div class="mb-20">
       <h1 class="font-semibold mt-4 text-xl">
         Your integrations

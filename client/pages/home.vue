@@ -4,7 +4,7 @@
     class="bg-white h-full flex flex-col"
   >
     <div class="flex bg-gray-50 pb-5 border-b">
-      <div class="max-w-6xl w-full mx-auto px-2">
+      <div class="max-w-6xl w-full mx-auto px-6">
         <div class="pt-4 pb-0">
           <div class="flex">
             <h2 class="flex-grow text-gray-900">
@@ -29,7 +29,7 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              Create a new form
+              New form
             </v-button>
           </div>
           <small class="flex text-gray-500">Manage your forms and submissions.</small>
@@ -37,7 +37,7 @@
       </div>
     </div>
     <div class="flex bg-white">
-      <div class="max-w-6xl w-full mx-auto">
+      <div class="max-w-6xl w-full mx-auto px-6">
         <div class="mt-4 pb-0">
           <text-input
             v-if="forms.length > 0"

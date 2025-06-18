@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-6xl w-full mx-auto p-4">
+  <div class="max-w-6xl w-full mx-auto p-6">
     <div class="w-full flex flex-col sm:flex-row gap-2">
       <div
         v-for="(stat, index) in [

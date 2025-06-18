@@ -3,7 +3,7 @@
     v-if="hasNavbar"
     class="bg-white dark:bg-notion-dark border-b"
   >
-    <div class="max-w-6xl mx-auto px-2">
+    <div class="max-w-6xl mx-auto px-6">
       <div class="flex items-center justify-between h-16">
         <div class="flex items-center">
           <NuxtLink
