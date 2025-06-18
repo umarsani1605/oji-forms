@@ -16,24 +16,22 @@
           >
         </div>
       </div>
+    </div>
+    <div
+      class="w-full mx-auto p-6 bg-white md:rounded-xl md:shadow"
+      :class="{'sm:my-8':!isIframe, 'md:w-3/5 lg:w-1/2 md:max-w-2xl': form && (form.width === 'centered'), 'max-w-6xl': (form && form.width === 'full' && !isIframe)}"
+    >
       <div
         v-if="form.logo_picture"
-        class="w-full p-8 relative mx-auto"
-        :class="{'pt-20':!form.cover_picture, 'md:w-3/5 lg:w-1/2 md:max-w-2xl': form.width === 'centered', 'max-w-6xl': (form.width === 'full' && !isIframe) }"
+        class="w-full p-2 relative mx-auto"
         :style="{ 'direction': form?.layout_rtl ? 'rtl' : 'ltr' }"
       >
         <img
           alt="Logo Picture"
           :src="form.logo_picture"
-          :class="{'top-5':!form.cover_picture, '-top-10':form.cover_picture}"
-          class="w-20 h-20 object-contain absolute transition-all"g
+          class="w-28 object-contain transition-all"
         >
       </div>
-    </div>
-    <div
-      class="w-full mx-auto p-8 bg-white rounded-xl shadow"
-      :class="{'my-8':!isIframe, 'md:w-3/5 lg:w-1/2 md:max-w-2xl': form && (form.width === 'centered'), 'max-w-6xl': (form && form.width === 'full' && !isIframe)}"
-    >
       <div v-if="!formLoading && !form">
         <NotFoundForm />
       </div>
